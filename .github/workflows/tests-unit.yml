@@ -26,3 +26,6 @@ jobs:
         run: yarn task --task compile --start-from=auto --no-link
       - name: test
         run: yarn test --runInBand --ci
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v3
+         env: CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
