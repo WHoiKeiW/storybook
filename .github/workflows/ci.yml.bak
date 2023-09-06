@@ -4,7 +4,7 @@ name: CI
 on:
   push:
     branches:
-      - next # Change to your default branch name if different
+      - hkei # Change to your default branch name if different
 
 jobs:
   build:
