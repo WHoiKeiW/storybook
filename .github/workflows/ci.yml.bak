@@ -4,7 +4,7 @@ name: CI
 on:
   push:
     branches:
-      - hkei # Change to your default branch name if different
+      - main # Change to your default branch name if different
 
 jobs:
   build:
@@ -27,3 +27,8 @@ jobs:
 
     - name: Run linting
       run: npm run lint
+
+    - name: Upload coverage reports to Codecov
+      uses: codecov/codecov-action@v3
+      env:
+        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
