@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "Storybook",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelines.actions.githubusercontent.com/lOT8VgLY9CbZiqK184fH6WUwtGXKTw577fEawsZOVyJJOkVcZl/",
+  "gitHubUrl": "https://github.com/WHoiKeiW/storybook",
+  "workFolder": "_work"
+}
